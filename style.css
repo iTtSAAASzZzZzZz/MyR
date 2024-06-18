@@ -1,0 +1,97 @@
+body{
+    font-family: 'Russo One';
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: #E85D04;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.link img{
+    width: 60px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.buttons button{
+    border-radius: 5px;
+    font-family: 'Russo One';
+    color: white;
+    font-size: 24px;
+
+}
+
+.sign{
+    background-color: #00000073;
+
+}
+
+.login{
+    background: #ffffff80;
+}
+
+main{
+    background-image: url(фотки/BG.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+}
+
+.title{
+    text-align: center;
+    font-size: 48px;
+    line-height: 1.2;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    width: 60%;
+    background-color: #370617E5;
+    padding: 45px;
+    color:white;
+
+}
+
+.image{
+    background-color: #370617E5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header a:hover{
+    color: gray;
+    
+    transition:  all 0.3s ease 0s;
+}
+
+.buttons button:hover{
+    box-shadow: 5px 5px 5px 0 black;
+    transition:  all 0.3s ease 0s;
+}
